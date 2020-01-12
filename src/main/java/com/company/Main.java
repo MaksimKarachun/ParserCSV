@@ -18,7 +18,6 @@ public class Main {
                 allExpense = allExpense + transaction.expense;
             }
 
-            //TODO: изменить кодировку(при открытии все русские буквы поехали)
             System.out.println("Общий приток средств на счет: " + allReceipt + " RUR");
             System.out.println("Общий расход средст по счету: " + allExpense + " RUR");
 
